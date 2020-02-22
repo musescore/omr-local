@@ -1,0 +1,72 @@
+2020-02-22 13:09:36,282 INFO  []                      Main 334  | Environment:
+- Audiveris:    5.1.0:4687c3527
+- OS:           Windows 10 10.0
+- Architecture: x86
+- Java VM:      Java HotSpot(TM) Client VM (build 25.231-b11, mixed mode)
+- OCR Engine:   No OCR is available!
+2020-02-22 13:09:36,306 INFO  []                       CLI 217  | CLI args: [-help]
+2020-02-22 13:09:36,351 INFO  []                       CLI 297  | 
+Audiveris Version:
+   5.1.0
+
+Syntax:
+    audiveris [OPTIONS] [--] [INPUT_FILES]
+
+@file:
+    Content of file to be extended in line
+
+Options:
+ -annotate                              : (advanced) Annotate book symbols
+                                          (default: false)
+ -batch                                 : Run with no graphic user interface
+                                          (default: false)
+ -export                                : Export MusicXML (default: false)
+ -force                                 : Force step/transcribe re-processing
+                                          (default: false)
+ -help                                  : Display general help then stop
+                                          (default: true)
+ -option key=value                      : Define an application constant
+ -output <output-folder>                : Define base output folder
+ -print                                 : Print out book (default: false)
+ -run <qualified-class-name>            : (advanced) Run provided class on
+                                          valid sheets
+ -sample                                : (advanced) Sample all book symbols
+                                          (default: false)
+ -save                                  : Save book on every successful batch
+                                          step (default: false)
+ -sheets int[]                          : Select specific sheets numbers and
+                                          ranges (like 2-5)
+ -step [LOAD | BINARY | SCALE | GRID |  : Define a specific target step
+ HEADERS | STEM_SEEDS | BEAMS |            
+ LEDGERS | HEADS | STEMS | REDUCTION |     
+ CUE_BEAMS | TEXTS | MEASURES | CHORDS     
+ | CURVES | SYMBOLS | LINKS | RHYTHMS      
+ | PAGE]                                   
+ -transcribe                            : Transcribe whole book (default: false)
+
+Input file extensions:
+    .omr        : book file  (input/output)
+    [any other] : image file (input)
+
+Sheet steps are in order:
+    LOAD       : Load the sheet (gray) picture
+    BINARY     : Binarize the sheet picture
+    SCALE      : Compute sheet line thickness, interline, beam thickness
+    GRID       : Retrieve staff lines, barlines, systems & parts
+    HEADERS    : Retrieve Clef-Key-Time systems headers
+    STEM_SEEDS : Retrieve stem thickness & seeds for stems
+    BEAMS      : Retrieve beams
+    LEDGERS    : Retrieve ledgers
+    HEADS      : Retrieve note heads & whole notes
+    STEMS      : Build stems connected to heads & beams
+    REDUCTION  : Reduce conflicts in heads, stems & beams
+    CUE_BEAMS  : Retrieve cue beams
+    TEXTS      : Call OCR on textual items
+    MEASURES   : Retrieve raw measures from groups of bar lines
+    CHORDS     : Gather notes heads into chords
+    CURVES     : Retrieve slurs, wedges & endings
+    SYMBOLS    : Retrieve fixed-shape symbols
+    LINKS      : Link and reduce symbols
+    RHYTHMS    : Handle rhythms within measures
+    PAGE       : Connect systems within page
+

@@ -1,0 +1,70 @@
+2020-02-22 13:34:56,484 INFO  []                      Main 334  | Environment:
+- Audiveris:    5.1.0:4687c3527
+- OS:           Windows 10 10.0
+- Architecture: x86
+- Java VM:      Java HotSpot(TM) Client VM (build 25.231-b11, mixed mode)
+- OCR Engine:   No OCR is available!
+2020-02-22 13:34:56,509 INFO  []                       CLI 217  | CLI args: [-batch, -export, -output, C:/Temp/MuseScore3Development/avsomr_local/build, C:/Development/MuseScore/avsomr/data/examples/chula.png]
+2020-02-22 13:34:56,540 INFO  []             AliasPatterns 128  | Alias patterns: [(IMSLP[0-9]*)-.*]
+2020-02-22 13:34:56,544 INFO  []                      Main 147  | Running in batch mode
+2020-02-22 13:34:56,636 INFO  []                      Main 251  | Submitting 1 task(s) in sequence:
+    Input "C:\Development\MuseScore\avsomr\data\examples\chula.png"
+2020-02-22 13:34:56,667 INFO  [chula]                      Book 473  | 1 sheet in C:\Development\MuseScore\avsomr\data\examples\chula.png
+2020-02-22 13:34:56,779 INFO  []                      Book 1660 | Stored /book.xml
+2020-02-22 13:34:56,779 INFO  []                      Book 1613 | Book stored as C:\Temp\MuseScore3Development\avsomr_local\build\chula\chula.omr
+2020-02-22 13:34:56,788 INFO  []                      Book 1327 | Book reaching PAGE on sheets:[#1]
+2020-02-22 13:34:56,788 INFO  [chula]            StepMonitoring 93   | LOAD
+2020-02-22 13:34:56,829 INFO  [chula]                      Book 1226 | Loaded image 1 2450x1954 from C:\Development\MuseScore\avsomr\data\examples\chula.png
+2020-02-22 13:34:56,834 INFO  [chula]            StepMonitoring 93   | BINARY
+2020-02-22 13:34:57,337 INFO  [chula]            StepMonitoring 93   | SCALE
+2020-02-22 13:34:57,352 INFO  [chula]              ScaleBuilder 492  | Beam minHeight:6 maxHeight:19 quorum:1471
+2020-02-22 13:34:57,352 INFO  [chula]                 ScaleStep 84   | Scale{line(2,3,4) interline(21,21,22) beam(12)}
+2020-02-22 13:34:57,352 INFO  [chula]            StepMonitoring 93   | GRID
+2020-02-22 13:34:57,596 INFO  [chula]            LinesRetriever 447  | Global slope: 0.00749
+2020-02-22 13:34:57,615 INFO  [chula]         ClustersRetriever 235  | Retrieved line clusters: 6 of size: 5 with interline: interline(21,21,22)
+2020-02-22 13:34:57,784 INFO  [chula]                 PeakGraph 177  | Systems: #1[1, 2] #2[3, 4] #3[5, 6]
+2020-02-22 13:34:58,160 INFO  [chula]             SystemManager 648  | Indentation detected for system#1
+2020-02-22 13:34:58,160 INFO  [chula]             SystemManager 731  | 1 part along 3 systems
+2020-02-22 13:34:58,160 INFO  [chula]            StepMonitoring 93   | HEADERS
+2020-02-22 13:34:58,261 INFO  [chula]           BasicClassifier 362  | Classifier loaded XML norms.
+2020-02-22 13:34:58,266 INFO  [chula]        AbstractClassifier 348  | Classifier data loaded from default uri jar:file:/C:/Users/igor/Documents/MuseScore3Development/Plugins/avsomr_local/audiveris/win/Audiveris32/lib/audiveris.jar!/res/basic-classifier.zip
+2020-02-22 13:34:58,834 INFO  [chula]            StepMonitoring 93   | STEM_SEEDS
+2020-02-22 13:34:58,881 INFO  [chula]             StemSeedsStep 93   | stem(2 max:3)
+2020-02-22 13:34:58,911 INFO  [chula]            StepMonitoring 93   | BEAMS
+2020-02-22 13:35:03,218 INFO  [chula]            BlackHeadSizer 95   | Spots black-head retrieval diameter: 18.9
+2020-02-22 13:35:03,548 INFO  [chula]            BlackHeadSizer 243  | Core black head count: 32 blackHead(width:24.7~0.5 height:23.4~1.4)
+2020-02-22 13:35:03,548 INFO  [chula]            BlackHeadSizer 248  | MusicFont{name:MusicalSymbols pointSize:83}
+2020-02-22 13:35:03,675 INFO  [chula]                 BeamsStep 86   | BeamDistance{count:57 mean:18.18 stdDev:6.20}
+2020-02-22 13:35:03,675 INFO  [chula]            StepMonitoring 93   | LEDGERS
+2020-02-22 13:35:03,914 INFO  [chula]            StepMonitoring 93   | HEADS
+2020-02-22 13:35:10,242 INFO  [chula]            StepMonitoring 93   | STEMS
+2020-02-22 13:35:10,490 INFO  [chula]            StepMonitoring 93   | REDUCTION
+2020-02-22 13:35:10,554 INFO  [chula]            StepMonitoring 93   | CUE_BEAMS
+2020-02-22 13:35:10,561 INFO  [chula]            StepMonitoring 93   | TEXTS
+2020-02-22 13:35:10,563 WARN  [chula]                 TextsStep 82   | TEXTS step: No OCR is available!
+2020-02-22 13:35:10,567 INFO  [chula]            StepMonitoring 93   | MEASURES
+2020-02-22 13:35:10,573 INFO  [chula]                      Page 251  | 19 raw measures: [7 in system#1, 6 in system#2, 6 in system#3]
+2020-02-22 13:35:10,574 INFO  [chula]            StepMonitoring 93   | CHORDS
+2020-02-22 13:35:10,593 INFO  [chula]            StepMonitoring 93   | CURVES
+2020-02-22 13:35:11,395 INFO  [chula]              SlursBuilder 156  | Slurs: 4
+2020-02-22 13:35:11,395 INFO  [chula]           SegmentsBuilder 110  | Segments: 4
+2020-02-22 13:35:11,395 INFO  [chula]            StepMonitoring 93   | SYMBOLS
+2020-02-22 13:35:11,511 INFO  [chula]            SymbolsBuilder 336  | Symbol parts shrunk from 10 to 7
+2020-02-22 13:35:11,516 INFO  [chula]              InterFactory 517  | No support yet for TIME_ZERO
+2020-02-22 13:35:11,532 INFO  [chula]              InterFactory 517  | No support yet for TIME_ZERO
+2020-02-22 13:35:11,618 INFO  [chula]            SymbolsBuilder 336  | Symbol parts shrunk from 9 to 7
+2020-02-22 13:35:11,679 INFO  [chula]              InterFactory 517  | No support yet for TIME_ZERO
+2020-02-22 13:35:11,751 INFO  [chula]            SymbolsBuilder 336  | Symbol parts shrunk from 17 to 7
+2020-02-22 13:35:11,811 INFO  [chula]            StepMonitoring 93   | LINKS
+2020-02-22 13:35:11,831 INFO  [chula]            StepMonitoring 93   | RHYTHMS
+2020-02-22 13:35:11,928 INFO  [chula]            StepMonitoring 93   | PAGE
+2020-02-22 13:35:11,932 INFO  [chula]                 SheetStub 974  | Stub#1 storing
+2020-02-22 13:35:11,932 INFO  [chula]                      Book 1660 | Stored /book.xml
+2020-02-22 13:35:12,105 INFO  [chula]                   Picture 784  | Stored /sheet#1/BINARY.xml
+2020-02-22 13:35:12,634 INFO  [chula]                     Sheet 1246 | Stored /sheet#1/sheet#1.xml
+2020-02-22 13:35:12,634 INFO  [chula]                 SheetStub 979  | Sheet{chula} disposed
+2020-02-22 13:35:12,953 INFO  [chula]                 SheetStub 632  | Loaded /sheet#1/sheet#1.xml
+2020-02-22 13:35:12,953 INFO  [chula]                      Book 1451 | Scores built: 1
+2020-02-22 13:35:13,598 INFO  [chula]             ScoreExporter 88   | Score chula exported to C:\Temp\MuseScore3Development\avsomr_local\build\chula\chula.mxl
+2020-02-22 13:35:13,639 INFO  [chula]                      Book 1660 | Stored /book.xml
+2020-02-22 13:35:13,639 INFO  [chula]                      Book 1613 | Book stored as C:\Temp\MuseScore3Development\avsomr_local\build\chula\chula.omr

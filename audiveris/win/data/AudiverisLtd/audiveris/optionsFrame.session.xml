@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_231" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>optionsFrame</string>
+   <object class="org.jdesktop.application.session.WindowState">
+    <void property="bounds">
+     <object class="java.awt.Rectangle">
+      <int>718</int>
+      <int>207</int>
+      <int>965</int>
+      <int>515</int>
+     </object>
+    </void>
+    <void property="graphicsConfigurationBounds">
+     <object class="java.awt.Rectangle">
+      <int>0</int>
+      <int>0</int>
+      <int>1920</int>
+      <int>970</int>
+     </object>
+    </void>
+    <void property="screenCount">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

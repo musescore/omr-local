@@ -1,0 +1,19 @@
+2020-02-22 13:08:39,253 INFO  []                      Main 334  | Environment:
+- Audiveris:    5.1.0:4687c3527
+- OS:           Windows 10 10.0
+- Architecture: x86
+- Java VM:      Java HotSpot(TM) Client VM (build 25.231-b11, mixed mode)
+- OCR Engine:   Tesseract OCR, version 3.04.01
+2020-02-22 13:08:39,273 INFO  []                       CLI 217  | CLI args: []
+2020-02-22 13:08:39,305 INFO  []             AliasPatterns 128  | Alias patterns: [(IMSLP[0-9]*)-.*]
+2020-02-22 13:08:39,368 INFO  []                   MainGui 499  | Audiveris version 5.1.0
+2020-02-22 13:08:39,368 INFO  []                   MainGui 500  | 
+LogUtil. Property logback.configurationFile not defined, skipped.
+LogUtil. No C:\Users\igor\Documents\MuseScore3Development\Plugins\avsomr_local\audiveris\win\data\AudiverisLtd\audiveris\config\logback.xml, skipped.
+LogUtil. Configuration found jar:file:/C:/Users/igor/Documents/MuseScore3Development/Plugins/avsomr_local/audiveris/win/Audiveris32/lib/audiveris.jar!/res/logback.xml
+LogUtil. Logging to C:\Users\igor\Documents\MuseScore3Development\Plugins\avsomr_local\audiveris\win\data\AudiverisLtd\audiveris\log\20200222T130839.log
+
+2020-02-22 13:08:39,488 INFO  []            PluginsManager 235  | No C:\Users\igor\Documents\MuseScore3Development\Plugins\avsomr_local\audiveris\win\data\AudiverisLtd\audiveris\config\plugins.xml file found
+2020-02-22 13:08:39,528 INFO  []           BasicClassifier 362  | Classifier loaded XML norms.
+2020-02-22 13:08:39,531 INFO  []        AbstractClassifier 348  | Classifier data loaded from default uri jar:file:/C:/Users/igor/Documents/MuseScore3Development/Plugins/avsomr_local/audiveris/win/Audiveris32/lib/audiveris.jar!/res/basic-classifier.zip
+2020-02-22 13:08:54,882 INFO  []                GuiActions 776  | Building options window...

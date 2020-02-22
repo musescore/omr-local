@@ -1,0 +1,14 @@
+2020-02-22 13:16:41,889 INFO  []                      Main 334  | Environment:
+- Audiveris:    5.1.0:4687c3527
+- OS:           Windows 10 10.0
+- Architecture: x86
+- Java VM:      Java HotSpot(TM) Client VM (build 25.231-b11, mixed mode)
+- OCR Engine:   No OCR is available!
+2020-02-22 13:16:41,914 INFO  []                       CLI 217  | CLI args: [-batch, -option, -export, -output, C:/Temp/MuseScore3Development/avsomr_local/build, C:/Development/MuseScore/avsomr/data/examples/carmen.png]
+2020-02-22 13:16:41,950 INFO  []             AliasPatterns 128  | Alias patterns: [(IMSLP[0-9]*)-.*]
+2020-02-22 13:16:41,950 INFO  []                      Main 147  | Running in batch mode
+2020-02-22 13:16:42,037 INFO  []                      Main 251  | Submitting 1 task(s) in sequence:
+    Input "C:\Development\MuseScore\avsomr\data\examples\carmen.png"
+2020-02-22 13:16:42,077 INFO  [carmen]                      Book 473  | 1 sheet in C:\Development\MuseScore\avsomr\data\examples\carmen.png
+2020-02-22 13:16:42,199 INFO  []                      Book 1660 | Stored /book.xml
+2020-02-22 13:16:42,199 INFO  []                      Book 1613 | Book stored as C:\Temp\MuseScore3Development\avsomr_local\build\carmen\carmen.omr

@@ -18,5 +18,6 @@ cd "`dirname \"$PRG\"`/" >/dev/null
 APP_HOME="`pwd -P`"
 cd "$SAVED" >/dev/null
 
+export HOME=$APP_HOME/data
 export JAVA_HOME=$APP_HOME/jre1.8.0_241.jre/Contents/Home
 $APP_HOME/Audiveris/bin/Audiveris $@
