@@ -1,4 +1,4 @@
-AvsOmr local MuseScore plugin
-=============================
+Portable audiveris for MuseScore (used as plugin)
+=================================================
    
 TODO...
