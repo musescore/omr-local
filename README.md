@@ -1,4 +1,4 @@
-Portable audiveris for MuseScore (used as plugin)
-=================================================
+Portable audiveris for MuseScore
+================================
    
 TODO...
