@@ -22,9 +22,9 @@ call %AUDIVERIS% -batch -export -output %BUILD_DIR% %FILE_PATH%
 
 set BUILD_PATH=%BUILD_DIR%/%FILE_NAME%
 
-@echo === run pack avs file ===
-%ZIP% a -mm=Deflate -tzip %BUILD_PATH%/%FILE_NAME%.avs %BUILD_PATH%/%FILE_NAME%.mxl %BUILD_PATH%/%FILE_NAME%.omr
+@echo === run pack msmr file ===
+%ZIP% a -mm=Deflate -tzip %BUILD_PATH%/%FILE_NAME%.msmr %BUILD_PATH%/%FILE_NAME%.mxl %BUILD_PATH%/%FILE_NAME%.omr
 
-@echo all done file:  %BUILD_PATH%/%FILE_NAME%.avs
+@echo all done file:  %BUILD_PATH%/%FILE_NAME%.msmr
 
 exit 0
