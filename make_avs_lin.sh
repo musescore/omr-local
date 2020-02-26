@@ -42,7 +42,7 @@ sh $AUDIVERIS -batch -export -output $BUILD_DIR $FILE_PATH
 BUILD_PATH=$BUILD_DIR/$FILE_NAME
 
 echo "=== run pack avs file === "
-$ZIP $BUILD_PATH/$FILE_NAME.avs $BUILD_PATH/$FILE_NAME.mxl $BUILD_PATH/$FILE_NAME.omr
+$ZIP -j $BUILD_PATH/$FILE_NAME.avs $BUILD_PATH/$FILE_NAME.mxl $BUILD_PATH/$FILE_NAME.omr
 
 echo "\n"
 echo "all done file: " $BUILD_PATH/$FILE_NAME.avs
